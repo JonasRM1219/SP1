@@ -12,11 +12,11 @@ public static void main(String[] args) {
     }
 
 
-        String[] navne = {"Marko", "Op", "Jonas", "Magnus"};
-        int[] aldre = {19, 23, 23, 25};
+    String[] navne = {"Marko", "Op", "Jonas", "Magnus"};
+    int[] aldre = {19, 23, 23, 25};
 
-        System.out.println("Gruppemedlemmer ");
-        for (int i = 0; i < navne.length; i++) {
-            System.out.println((i+1) + ". " + navne[i] + " - " + aldre[i] + " år");
-        }
+    System.out.println("Gruppemedlemmer ");
+    for (int i = 0; i < navne.length; i++) {
+        System.out.println((i+1) + ". " + navne[i] + " - " + aldre[i] + " år");
     }
+}
