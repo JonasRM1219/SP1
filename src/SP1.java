@@ -44,7 +44,7 @@ class Hero {
         this.maxHealth = 100;
         this.health = maxHealth;
         this.xp = 0;
-        this.tasker = new String[]{"Sværd", "Skjold", "Healing potion"};
+        this.tasker = new String[]{"Sværd", "Skjold", "Mønter" , "Healing potion"};
 
         if (klasse.equals("Mage")) {
             this.maxHealth = 60;
@@ -116,7 +116,6 @@ class Hero {
     }
 
     public void visInventory() {
-        System.out.println("Mønter: 10");
         for (int i = 0; i < tasker.length; i++) {
             System.out.println("  " + (i + 1) + ". " + tasker[i]);
 
