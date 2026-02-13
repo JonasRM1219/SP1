@@ -44,7 +44,7 @@ class Hero {
         this.maxHealth = 100;
         this.health = maxHealth;
         this.xp = 0;
-        this.tasker = new String[]{"Sværd", "Skjold", "Mønter" , "Healing potion"};
+        this.tasker = new String[]{"Sværd", "Skjold", "Mønter: 10" , "Healing potion"};
 
         if (klasse.equals("Mage")) {
             this.maxHealth = 60;
